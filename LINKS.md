@@ -1,0 +1,2 @@
+- **HF Hub link**: https://huggingface.co/AgentZoil/lab21/tree/main/lab21_lora_t4
+- **Github link**: https://github.com/AgentZoil/Day21-Track3-Finetuning-LLMs-LoRA-QLoRA/tree/main

@@ -11,7 +11,7 @@
 - **max_seq_length**: 1024 (p95 rounded up)
 - **GPU**: Tesla T4, 15.6 GB VRAM
 - **Training cost**: $0.07 (~11.9 phút @ $0.35/hr)
-- **HF Hub link**: https://huggingface.co/AgentZoil/qwen2.5-3b-vi-lab21-r16
+- **HF Hub link**: https://huggingface.co/AgentZoil/lab21/tree/main/lab21_lora_t4
 
 ## 2. Rank Experiment Results
 
@@ -34,7 +34,7 @@
 
 ## 3. Loss Curve Analysis
 
-![Loss curve](lab21_lora_t4/loss_curve.png)
+![Loss curve](results/loss_curve.png)
 
 - **Quan sát**: Không có overfitting rõ rệt.
 - **Lý do**: Train loss giảm khá đều từ khoảng 1.61 xuống 1.39 qua các checkpoint, chỉ có dao động nhỏ ở giữa quá trình train. Eval loss của các cấu hình cuối cùng cũng giảm khi rank tăng, nên xu hướng chung là mô hình còn hưởng lợi từ thêm capacity hơn là bị overfit.
