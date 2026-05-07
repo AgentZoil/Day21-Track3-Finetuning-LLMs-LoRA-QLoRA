@@ -1,3 +1,0 @@
-rank,alpha,trainable_params,train_time_min,peak_vram_gb,eval_loss,eval_perplexity,target_modules,use_dora
-16,32,29933568,4.612304818630219,10.589895168,1.4948303699493408,4.458580179516097,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",False
-16,32,3686400,3.7548898418744403,12.8724608,1.5160834789276123,4.554353000077306,"q_proj,v_proj",True
